@@ -8,7 +8,7 @@ diffrent shapes to console. Your customers(library users) are now asking for mor
 pattern for practical applications?
 
 ### Original Impl Interface
-```
+``` cpp
 static int OriginalImpl() {
   Shape circle{Circle{5.0}};
   std::vector<Shape> shapes;
@@ -26,7 +26,7 @@ static int OriginalImpl() {
 ```
 
 ### Extended Impl Interface
-```
+``` cpp
 static int AntonsSilverBullet() {
   Shape circle{Circle{5.0}};
   std::vector<Shape> shapes;
