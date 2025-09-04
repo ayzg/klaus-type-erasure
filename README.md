@@ -3,7 +3,7 @@
 An in-depth analysis and application of Klaus Iglberger's C++ type erasure pattern. 
 Along with practial extensions to the pattern using C++23 features.
 
-The concept is a hypothetical case: You a library maintainer of an ASCII rendering engine, who decided use Klaus's type erasure to allow users to draw
+The concept is a hypothetical case: You are a library maintainer of an ASCII rendering engine, who decided use Klaus's type erasure to allow users to draw
 diffrent shapes to console. Your customers(library users) are now asking for more features in terms of flexibility. What can be done to extend the 
 pattern for practical applications?
 
